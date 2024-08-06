@@ -27,8 +27,8 @@ git clone https://github.com/OlguD/Maze-Generation-Maze-Solver.git
 ```
 
 ## Example
-# Unsolved
+### Unsolved
 ![unsolved-maze](https://github.com/OlguD/Maze-Generation-Maze-Solver/blob/main/assets/unsolved.png)
 
-# Solved
+### Solved
 ![solved-maze](https://github.com/OlguD/Maze-Generation-Maze-Solver/blob/main/assets/solved.png)
