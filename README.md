@@ -24,7 +24,7 @@ To clone the repository, run:
 
 ```sh
 git clone https://github.com/OlguD/Maze-Generation-Maze-Solver.git
-
+```
 
 ## Example
 Unsolved
