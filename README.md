@@ -34,4 +34,4 @@ git clone https://github.com/OlguD/Maze-Generation-Maze-Solver.git
 ![solved-maze](https://github.com/OlguD/Maze-Generation-Maze-Solver/blob/main/assets/solved.png)
 
 ### GUI
-![[unsolved-maze](https://github.com/OlguD/Maze-Generation-Maze-Solver/blob/main/assets/mazeGUI)](https://github.com/OlguD/Maze-Generation-Maze-Solver/blob/main/assets/mazeSolverVideo.mov)
+[![unsolved-maze](https://github.com/OlguD/Maze-Generation-Maze-Solver/raw/main/assets/mazeGUI.png)](https://github.com/OlguD/Maze-Generation-Maze-Solver/blob/main/assets/mazeSolverVideo.mov)
