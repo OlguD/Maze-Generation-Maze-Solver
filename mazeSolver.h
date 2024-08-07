@@ -7,7 +7,7 @@
 #define VISITED 2
 
 #include "mazeGenerator.h"
-
+#include <stdbool.h>
 typedef struct{
     int x, y;
 }Coordinate;
@@ -15,7 +15,7 @@ typedef struct{
 
 bool isValidMove(int maze[WIDTH][HEIGHT], int x, int y);
 void printSolvedMaze(int maze[WIDTH][HEIGHT]);
-void loadMazeFromFile(int maze[WIDTH][HEIGHT]);
+void loadMazeFromFile(char filename[], int maze[WIDTH][HEIGHT]);
 bool solveMaze(int maze[WIDTH][HEIGHT], int x, int y, int endX, int endY);
 
 

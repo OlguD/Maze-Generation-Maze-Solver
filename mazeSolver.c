@@ -1,4 +1,5 @@
 #include <stdbool.h>
+#include "utils/utils.h"
 #include <stdio.h>
 #include "mazeSolver.h"
 // 0 -> wall
@@ -15,7 +16,7 @@ Coordinate directions[4] = {
 int main(){
     int maze[WIDTH][HEIGHT];
 
-    loadMazeFromFile(maze);
+    loadMazeFromFile("maze.txt", maze);
 
     if (solveMaze(maze, 1, 1, WIDTH - 2, HEIGHT - 2)) {
         printf("Maze solved:\n");
@@ -67,25 +68,7 @@ bool solveMaze(int maze[WIDTH][HEIGHT], int x, int y, int endX, int endY) {
                 return true;
             }
         }
-
         maze[x][y] = PATH; // Geri dön
     }
-
     return false;
-}
-
-
-void loadMazeFromFile(int maze[WIDTH][HEIGHT]){
-    FILE *file = fopen("maze.txt", "r");
-
-    if (file == NULL){
-        printf("Error opening maze file");
-    }
-
-    for (int y=0; y<HEIGHT; y++){
-        for (int x=0; x<WIDTH; x++){
-            fscanf(file, "%d", &maze[x][y]);
-        }
-    }
-    fclose(file);
 }
